@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aluno Cadastro</title>
+</head>
+<body>
+    <header>
+        <h1>Sistema de Cadastro de Aluno</h1>
+        <h2>Faculdade Invest</h2>
+    </header>
+    <!--Secao de navegacao-->
+   <nav>
+        <a href="../sistema-academico/index.html">Dasboard</a>
+        <a href="../sistema-academico/alunos.html">Alunos</a>
+       
+    </nav>
+
+    <main>
+
+        <section>
+            <form action="">
+                <label for="id-nome">Digite seu Nome:</label>
+                <input type="text" text id="nome" name="nome" minlength="3" required>
+                <button type="submit">Enviar</button>
+
+
+                <label for="id-cpf">Digite seu CPF:</label>
+                <input type="text" text id="cpf" name="cpf" required maxlength="14"  placeholder="ex: 141.283.293-32">
+                <button type="submit">Enviar</button>
+
+
+                <label for="id-nascimento">Digite sua Data de Nascimento:</label>
+                <input type="date" text id="nascimento" name="nascimento" required>
+                <button type="submit">Enviar</button>
+
+
+                <label for="id-email">Digite seu e-mail:</label>
+                <input type="email" text id="email" name="email" required  placeholder="ex: joaosilva@gmail.com">
+                <button type="submit">Enviar</button>
+
+                <label for="id-telefone">Digite seu telefone:</label>
+                <input type="tel" text id="telefone" name="telefone"  placeholder="ex: 65 99285-8277">
+                <button type="submit">Enviar</button>
+
+
+                <label for="id-cidade">Digite sua cidade:</label>
+                <input type="text" text id="cidade" name="cidade" max="2"  placeholder="ex: Cuiaba">
+                <button type="submit">Enviar</button>
+
+
+                <label for="id-estado">Digite seu Esatdo:</label>
+                <input type="text" text id="estado" name="estado"  placeholder="ex: MT" maxlength="2">
+                <button type="submit">Enviar</button>
+                
+                <label for="id-status">Status:</label>
+                <input type="text" text id="status" name="status" required>
+                <button type="submit">Enviar</button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+
+    <footer>
+        <p>© 2026 Sistema de Gerenciamento Academico</p>
+    </footer>
+</body>
+</html>
