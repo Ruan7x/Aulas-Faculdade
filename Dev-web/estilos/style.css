@@ -16,9 +16,18 @@ nav {
  background-color: #eeeeee;
  padding: 12px;
 }
+
 nav a {
  color: #003366;
  text-decoration: none;
+}
+
+nav ul {
+ display: flex;
+ gap: 16px;
+ margin: 0;
+ padding: 0;
+ list-style: none;
 }
 main {
  padding: 24px;
@@ -97,4 +106,27 @@ footer {
  border: 1px solid #e5d59b;
  padding: 20px;
  margin-bottom: 24px;
+}
+.cabecalho {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+.cards {
+ display: flex;
+ flex-wrap: wrap;
+ gap: 16px;
+}
+.card {
+ flex: 1 1 250px;
+}
+.lista-cards {
+ display: flex;
+ flex-wrap: wrap;
+ gap: 16px;
+}
+.acoes {
+ display: flex;
+ justify-content: flex-end;
+ gap: 12px;
 }
